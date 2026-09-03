@@ -13,6 +13,7 @@ int main()
    
     printf("Hello, World!\n");
     printf("second line");
+    printf("\n");
 
 
 
