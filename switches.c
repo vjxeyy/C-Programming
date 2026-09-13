@@ -8,7 +8,7 @@ int main()
 
     int day;
 
-    printf("Enter a day of the week: ");
+    printf("Enter a number: ");
     scanf("%d", &day);
 
     switch (day)
