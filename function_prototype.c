@@ -7,7 +7,7 @@
 //                       they're defined.
 //                       Improves readability, organization, and helps prevent errors.
 
-void hello(char name[], int age); //function prototype
+void hello(char name[], int age);
 bool ageCheck(int age);
 
 int main() {
