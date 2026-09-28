@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+// function prototype = Provide the compiler w/ information about a function's:
+//                       name, return type, and parameters before its actual definition.
+//                       Enables type checking and allows functions to be used before
+//                       they're defined.
+//                       Improves readability, organization, and helps prevent errors.
+
 void hello(char name[], int age); //function prototype
 bool ageCheck(int age);
 
