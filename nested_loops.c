@@ -21,7 +21,7 @@ int main()
     }
 
 
-    // 2d rectangle
+    // 2d 
 
     int rows = 0;
     int columns = 0;
@@ -42,6 +42,8 @@ int main()
         }
         printf("\n");
     }
+
+
 
     return 0;
 }
