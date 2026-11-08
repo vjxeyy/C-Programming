@@ -26,5 +26,30 @@ int main() {
     int randomNum3 = (rand() % (max - min + 1)) + min;
     printf("%d\n", randomNum3);
 
+    // coin flip (0 = heads, 1 = tails)
+    int coin = rand() % 2;
+    printf("Coin flip: %s\n", coin == 0 ? "Heads" : "Tails");
+
+    // roll two dice and add them up
+    int die1 = (rand() % 6) + 1;
+    int die2 = (rand() % 6) + 1;
+    printf("Dice: %d + %d = %d\n", die1, die2, die1 + die2);
+
+    // random float between 0.0 and 1.0
+    double randomFloat = (double)rand() / RAND_MAX;
+    printf("Random float: %f\n", randomFloat);
+
+    // pick a random item from an array
+    char *colors[] = {"Red", "Green", "Blue", "Yellow", "Purple"};
+    int size = sizeof(colors) / sizeof(colors[0]);
+    printf("Random color: %s\n", colors[rand() % size]);
+
+    // generate 5 random lottery numbers (1-49)
+    printf("Lottery numbers: ");
+    for (int i = 0; i < 5; i++) {
+        printf("%d ", (rand() % 49) + 1);
+    }
+    printf("\n");
+
     return 0;
 }
